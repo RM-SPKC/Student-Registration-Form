@@ -1,1 +1,6 @@
+function validate()
+{
+let e=
 
+
+}
