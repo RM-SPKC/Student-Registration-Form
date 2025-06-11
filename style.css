@@ -1,0 +1,27 @@
+table
+{
+    margin-top:30px;
+    border:2px solid #e5340e;
+	box-shadow:#999 3px 3px 3px;
+    padding:10px;
+    border-radius:9px;
+}
+.b
+{
+    padding:12px;
+    background-color:#e5340e ;
+    border:0px solid #e5340e ;
+    color:white;
+}
+#h
+{
+  font-size:24px;
+  color:#e5340e;
+  font-family:Arial;
+}
+input[type=text],input[type=email],input[type=select],#ct
+{
+width:200px;
+height:40px;
+
+}

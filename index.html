@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/Apex_Task/style.css">
+    </head>
+    <body>        
+        <table align="center" cellpadding="10" cellspacing="10">
+            <form>
+                <tr>
+                    <th id="h" colspan="2">Student Registration Form</th>
+                </tr>
+                <tr>
+                    <td><label>Name</label></td>
+                    <td><input type="text" name="n" placeholder="Enter the name" required></td>
+                </tr>
+                <tr>
+                    <td><label>Email</label></td>
+                    <td><input type="email" name="e" placeholder="Enter the mail ID" required></td>
+                </tr>
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td>Male<input type="radio" name="g" required>
+                        Female<input type="radio" name="g" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Course</label></td>
+                    <td><select required name="c" id="ct">
+                        <option value="Bsc Maths">Bsc Maths</option>
+                        <option value="Bsc CS">Bsc CS</option>
+                        <option value="Bsc DS">Bsc DS</option>
+                        <option value="BCom">BCom</option>
+                        <option value="BA English">BA English</option>
+                        <option value="BA Tamil">BA Tamil</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Comment</label></td>
+                    <td><textarea rows="10" cols="25" placeholder="Comment please...." required name="cm"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" class="b" value="Register" ></td>
+                    <td><input type="reset" class ="b" value="Refresh" ></td>
+                </tr>
+            </form>
+        </table>
+    
+    </body>
+</html>
