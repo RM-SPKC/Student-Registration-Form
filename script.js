@@ -1,6 +1,7 @@
 function validate()
 {
-let e=
+let e=document.getElementById("#t").value;
+if
 
 
 }
